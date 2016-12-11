@@ -1,9 +1,9 @@
 import React from "react";
 import {Router, Route, IndexRoute, browserHistory} from "react-router";
 import {syncHistoryWithStore} from "react-router-redux";
-import Container from "./components/Container.jsx";
-import Home from "./components/sections/Home.jsx";
-import ContactUs from "./components/sections/ContactUs.jsx";
+import Container from "components/Container";
+import Home from "components/sections/Home";
+import ContactUs from "components/sections/ContactUs";
 
 const routes =  (
 	<Route path="/" component={Container}>

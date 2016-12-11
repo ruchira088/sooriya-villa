@@ -8,6 +8,20 @@ module.exports = {
 		filename: "bundle.js"
 	},
 	devtool: "source-map",
+	resolve: {
+		extensions: ["", ".webpack.js", ".web.js", ".js", ".jsx", ".scss"],
+		root: [
+			path.join(__dirname),
+			path.join(__dirname, "front-end")
+		],
+		alias: {
+			home: "front-end",
+			styles: "styles",
+			assets: "assets",
+			components: "components",
+			reducers: "reducers"
+		}
+	},
 	module: {
 		loaders: [
 			{
