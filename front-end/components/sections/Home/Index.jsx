@@ -1,10 +1,8 @@
 import React from "react"
-import Carousel from "components/common/Carousel"
-
+import HomePageCarousel from "./HomePageCarousel"
 
 export default () => (
     <div className="section home-section">
-        <Carousel>
-        </Carousel>
+        <HomePageCarousel/>
     </div>
 )

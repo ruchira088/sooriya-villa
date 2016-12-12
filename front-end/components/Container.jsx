@@ -1,10 +1,10 @@
 import React from "react"
-import MenuBar from "components/MenuBar"
+import Menu from "components/Menu"
 import "styles/container"
 
 export default ({children}) => (
     <div className="container">
-        <MenuBar/>
+        <Menu/>
         { children }
     </div>
 )

@@ -1,7 +1,7 @@
 import React from "react"
 import {Link} from "react-router"
-
 import {routes} from "home/Router"
+import "styles/menu"
 
 export default () => (
     <div className="menu">
